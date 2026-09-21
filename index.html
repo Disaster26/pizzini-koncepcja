@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pizzini - pizza neapolitańska i pasta fresca | Warszawa Ursus i Wola</title>
+<meta name="description" content="Pizzini - pizza neapolitańska z pieca i świeży makaron w Warszawie. Dwa lokale: Ursus (Posag 7 Panien 14) i Wola (Jana Kazimierza 35). Zamów przez Wolt lub Pyszne.pl albo zarezerwuj stolik: 510 189 509.">
+<meta property="og:title" content="Pizzini - pizza neapolitańska & pasta fresca, Warszawa">
+<meta property="og:description" content="Ciasto dojrzewające 48 godzin, mozzarella fior di latte, świeży makaron. Ursus i Wola. Zamów online lub zarezerwuj stolik.">
+<meta property="og:image" content="img/diavola.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--red:#CC212D;--red2:#a8161f;--dark:#0E1113;--dark2:#1A2225;--green:#3f8a3a;--cream:#faf6ef;--linia:#e9e2d6;--szary:#5b5b5b;--tekst:#1f1f1f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Montserrat,system-ui,Segoe UI,Arial,sans-serif;color:var(--tekst);background:#fff;line-height:1.6;font-size:16.5px}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--red)}
+h1,h2,h3,.amatic{font-family:"Amatic SC",cursive;letter-spacing:.5px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+.szkic{background:#fff6d6;color:#6b4d00;border-bottom:1px solid #ecd58a;font-size:13.5px;text-align:center;padding:8px 14px;line-height:1.4}
+.szkic b{color:#4d3600}
+.pasek{background:var(--dark);color:#cfd6d9;font-size:13px;text-align:center;padding:7px 12px}
+.pasek b{color:#fff}.pasek a{color:#fff;text-decoration:none;margin:0 6px;font-weight:600}
+header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--linia);box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 0;position:relative}
+.logo img{height:54px;width:auto}
+nav ul{list-style:none;margin:0;padding:0;display:flex;gap:22px}
+nav a{color:var(--dark2);text-decoration:none;font-weight:700;font-size:14.5px;text-transform:uppercase;letter-spacing:.4px}
+nav a:hover{color:var(--red)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:999px;font-weight:800;text-decoration:none;font-size:15px;white-space:nowrap;transition:.15s}
+.btn-p{background:var(--red);color:#fff}.btn-p:hover{background:var(--red2)}
+.btn-s{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.75)}.btn-s:hover{background:rgba(255,255,255,.16)}
+.btn-d{background:var(--dark);color:#fff}.btn-d:hover{background:#000}
+.btn-o{background:#fff;color:var(--dark);border:2px solid var(--linia)}.btn-o:hover{border-color:var(--red);color:var(--red)}
+.burger{display:none;background:none;border:0;font-size:30px;line-height:1;color:var(--dark);cursor:pointer}
+.hero{position:relative;color:#fff;background:var(--dark);overflow:hidden}
+.hero .tlo{position:absolute;inset:0;background:url(img/diavola.jpg) center/cover;opacity:.55}
+.hero .grad{position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,17,19,.92) 0%,rgba(14,17,19,.55) 55%,rgba(14,17,19,.15) 100%)}
+.hero .wrap{position:relative;padding-top:96px;padding-bottom:96px;max-width:1140px}
+.hero .txt{max-width:600px}
+.hero .tag{display:inline-block;background:var(--red);color:#fff;font-weight:700;font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase;padding:6px 12px;border-radius:4px;margin-bottom:18px}
+.hero h1{font-size:70px;line-height:.95;margin:0 0 14px;text-shadow:0 2px 14px rgba(0,0,0,.5)}
+.hero h1 span{color:#ffd9dc}
+.hero p{font-size:19px;margin:0 0 28px;color:#eef1f2;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero .lok{margin-top:34px;display:flex;gap:26px;flex-wrap:wrap;font-size:14px;color:#dfe5e8}
+.hero .lok b{display:block;color:#fff;font-size:15px}
+.hero .lok a{color:#fff;text-decoration:none;font-weight:700}
+.atuty{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:-38px;position:relative;z-index:2}
+.atut{background:#fff;border:1px solid var(--linia);border-radius:16px;padding:20px 18px;box-shadow:0 10px 30px rgba(0,0,0,.07);text-align:center}
+.atut b{display:block;font-size:30px;color:var(--red);font-family:"Amatic SC",cursive;line-height:1}
+.atut span{color:var(--szary);font-size:14px;display:block;margin-top:6px}
+section{padding:66px 0}
+h2{font-size:52px;margin:0 0 6px;color:var(--dark);font-weight:700;line-height:1}
+.lead{color:var(--szary);max-width:760px;margin:0 0 34px;font-size:17.5px}
+.onas{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.onas p{margin:0 0 16px}
+.onas img{border-radius:18px;box-shadow:0 20px 50px rgba(204,33,45,.16)}
+.onas .liste{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:10px}
+.onas .liste li{padding-left:28px;position:relative}
+.onas .liste li:before{content:"";position:absolute;left:0;top:7px;width:16px;height:16px;border-radius:50%;background:var(--green)}
+.menu{background:var(--cream)}
+.menu-top{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:30px}
+.karty{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.karta{background:#fff;border:1px solid var(--linia);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.karta img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.karta .in{padding:16px 18px 18px;flex:1;display:flex;flex-direction:column}
+.karta h3{margin:0 0 4px;font-size:30px;line-height:1;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.karta h3 .cena{color:var(--red);font-size:26px;white-space:nowrap}
+.karta p{margin:0;color:var(--szary);font-size:14px;line-height:1.5}
+.karta .etyk{display:inline-block;background:#eaf5e8;color:#2c6a28;font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:999px;margin-bottom:8px;width:max-content}
+.karta .etyk.ostre{background:#fde7e9;color:var(--red2)}
+.lista-menu{display:grid;grid-template-columns:1fr 1fr;gap:10px 44px;margin-top:40px}
+.lista-menu h3{font-size:34px;margin:18px 0 6px;color:var(--dark);grid-column:span 1}
+.poz{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed #dcd4c6;font-size:15px}
+.poz b{font-weight:600;color:var(--dark)}.poz small{display:block;color:var(--szary);font-size:13px;line-height:1.4}
+.poz .c{color:var(--red);font-weight:800;white-space:nowrap}
+.lunch{background:var(--dark);color:#fff}
+.lunch h2{color:#fff}.lunch .lead{color:#c9d1d5}
+.lunch .box{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.lunch .kafle{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.lunch .kafel{background:var(--dark2);border:1px solid #2c363a;border-radius:14px;padding:18px}
+.lunch .kafel b{display:block;font-family:"Amatic SC",cursive;font-size:30px;color:#ffd9dc;line-height:1}
+.lunch .kafel span{font-size:14px;color:#c9d1d5}
+.galeria .siatka{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.galeria img{aspect-ratio:1/1;object-fit:cover;border-radius:12px;width:100%}
+.galeria .siatka img:first-child{grid-column:span 2;grid-row:span 2}
+.opinie{background:var(--cream)}
+.op{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.opinia{background:#fff;border:1px solid var(--linia);border-radius:16px;padding:22px}
+.opinia .gw{color:#f2b01e;letter-spacing:2px;font-size:15px}
+.opinia p{margin:10px 0 8px;font-size:15px}
+.opinia small{color:var(--szary)}
+.lokale{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.lokal{border:1px solid var(--linia);border-radius:18px;overflow:hidden;background:#fff}
+.lokal .mapa{aspect-ratio:16/8;background:#eee}
+.lokal iframe{width:100%;height:100%;border:0;display:block}
+.lokal .in{padding:22px 24px 24px}
+.lokal h3{font-size:40px;margin:0 0 6px;line-height:1;color:var(--dark)}
+.lokal h3 span{color:var(--red)}
+.lokal p{margin:0 0 6px;color:var(--szary);font-size:15px}
+.lokal .dane{margin:12px 0 16px;display:grid;gap:6px;font-size:15.5px}
+.lokal .dane a{color:var(--dark);text-decoration:none;font-weight:700}
+.lokal .dane a:hover{color:var(--red)}
+.lokal .przyciski{display:flex;gap:10px;flex-wrap:wrap}
+.lokal .przyciski .btn{padding:10px 18px;font-size:14px}
+.godz{background:#fff;border:1px dashed var(--linia);border-radius:12px;padding:12px 16px;font-size:14px;color:var(--szary);margin-top:14px}
+.zamow{background:var(--red);color:#fff;text-align:center}
+.zamow h2{color:#fff;font-size:60px}
+.zamow p{color:#ffe3e5;max-width:640px;margin:0 auto 26px;font-size:18px}
+.zamow .btn-o{border-color:#fff;background:#fff;color:var(--red)}
+.zamow .btn-s{border-color:#fff}
+footer{background:var(--dark);color:#aeb8bd;padding:44px 0 26px;font-size:14px}
+.stopka{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:30px}
+footer h4{color:#fff;margin:0 0 10px;font-size:15px;text-transform:uppercase;letter-spacing:1px}
+footer a{color:#e5eaec;text-decoration:none}footer a:hover{color:#fff;text-decoration:underline}
+footer ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+.copy{border-top:1px solid #23292c;margin-top:30px;padding-top:16px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:12.5px;color:#7f8a90}
+.sm a{display:inline-block;margin-right:10px;font-weight:700}
+.mobile-bar{display:none}
+@media(max-width:980px){
+ .karty{grid-template-columns:repeat(2,1fr)}.atuty{grid-template-columns:repeat(2,1fr)}.stopka{grid-template-columns:1fr 1fr}
+ .onas,.lunch .box,.lokale,.lista-menu{grid-template-columns:1fr}.op{grid-template-columns:1fr}
+ .hero h1{font-size:56px}
+}
+@media(max-width:760px){
+ nav ul{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;flex-direction:column;gap:0;border-bottom:1px solid var(--linia);box-shadow:0 12px 30px rgba(0,0,0,.08)}
+ nav ul.open{display:flex}nav li{border-top:1px solid var(--linia)}nav ul a{display:block;padding:14px 20px}
+ .burger{display:block}.nav .btn{display:none}
+ .hero .wrap{padding-top:64px;padding-bottom:70px}.hero h1{font-size:50px}.hero p{font-size:17px}
+ .atuty{margin-top:-24px}.atut b{font-size:26px}
+ section{padding:48px 0}h2{font-size:42px}
+ .karty{grid-template-columns:1fr 1fr;gap:12px}.karta h3{font-size:24px}.karta h3 .cena{font-size:22px}.karta .in{padding:12px 13px 14px}.karta p{font-size:13px}
+ .galeria .siatka{grid-template-columns:repeat(2,1fr)}.galeria .siatka img:first-child{grid-column:span 2;grid-row:auto;aspect-ratio:16/10}
+ .lunch .kafle{grid-template-columns:1fr 1fr}
+ .stopka{grid-template-columns:1fr}
+ body{padding-bottom:64px}
+ .mobile-bar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--linia);padding:8px 10px;z-index:60;box-shadow:0 -6px 20px rgba(0,0,0,.08)}
+ .mobile-bar .btn{justify-content:center;padding:12px 10px;font-size:14px}
+}
+</style>
+</head>
+<body>
+<div class="szkic"><b>Podgląd roboczy (szkic).</b> To wizualizacja odświeżonej strony na obecnych treściach, cenach i zdjęciach z pizzini.pl. Wersja finalna będzie dopasowana do Państwa uwag: zdjęcia w pełnej rozdzielczości, ostateczne teksty, godziny otwarcia, opinie z Google, kolory i układ.</div>
+<div class="pasek">Zamów z dostawą: <a href="https://wolt.com/pl/pol/warsaw/restaurant/pizzini-pizza-neapolitaska-i-pasta-fresca" target="_blank" rel="noopener">Wolt</a> | <a href="https://www.pyszne.pl/menu/pizzini-pizza-neapolitanska-i-pasta-fresca" target="_blank" rel="noopener">Pyszne.pl</a> &nbsp;·&nbsp; Rezerwacje: <b>Ursus</b> <a href="tel:+48510189509">510 189 509</a> <b>Wola</b> <a href="tel:+48452574557">452 574 557</a></div>
+
+<header>
+ <div class="wrap nav">
+  <a class="logo" href="#" aria-label="Pizzini - strona główna"><img src="img/logo.png" alt="Pizzini - pizza napoletana & pasta fresca"></a>
+  <nav>
+   <ul id="menu">
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#lunch">Lunch</a></li>
+    <li><a href="#galeria">Galeria</a></li>
+    <li><a href="#lokale">Lokale</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+   </ul>
+  </nav>
+  <a class="btn btn-p" href="#zamow">Zamów online</a>
+  <button class="burger" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
+ </div>
+</header>
+
+<section class="hero" style="padding:0">
+ <div class="tlo"></div><div class="grad"></div>
+ <div class="wrap">
+  <div class="txt">
+   <span class="tag">Pizza napoletana &amp; pasta fresca</span>
+   <h1>Prawdziwa pizza neapolitańska <span>w Warszawie</span></h1>
+   <p>Cienkie ciasto z puszystym brzegiem, mozzarella fior di latte, włoskie wędliny i świeży makaron robiony na miejscu. Dwa lokale: Ursus i Wola. Na miejscu, na wynos i z dostawą.</p>
+   <div class="cta">
+    <a class="btn btn-p" href="#zamow">Zamów z dostawą</a>
+    <a class="btn btn-s" href="#menu">Zobacz menu</a>
+   </div>
+   <div class="lok">
+    <div><b>Ursus</b>Posag 7 Panien 14 · <a href="tel:+48510189509">510 189 509</a></div>
+    <div><b>Wola</b>Jana Kazimierza 35 · <a href="tel:+48452574557">452 574 557</a></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<div class="wrap">
+ <div class="atuty">
+  <div class="atut"><b>Fior di latte</b><span>świeża mozzarella na każdej pizzy</span></div>
+  <div class="atut"><b>Pasta fresca</b><span>makaron robiony u nas, w tym czarne tagliatelle</span></div>
+  <div class="atut"><b>2 lokale</b><span>Ursus i Wola - na miejscu i na wynos</span></div>
+  <div class="atut"><b>Dostawa</b><span>przez Wolt i Pyszne.pl</span></div>
+ </div>
+</div>
+
+<section id="onas">
+ <div class="wrap onas">
+  <div>
+   <h2>Pizzini - po prostu dobrze zjeść</h2>
+   <p>Pizzini to warszawska pizzeria z pizzą w stylu neapolitańskim i świeżym makaronem. Robimy jedzenie, które sami lubimy jeść: proste składniki dobrej jakości, sos z włoskich pomidorów, mozzarella fior di latte, salami Napoli, szynka crudo, burrata, trufla.</p>
+   <p>Do tego sałatki, tapenady z mini focaccią, włoskie desery, kawa, prosecco i wina - oraz cała strefa 0%, jeśli przyjeżdżają Państwo autem.</p>
+   <ul class="liste">
+    <li>Pizza neapolitańska: od klasycznej Marinary i Margherity po Diavolę z ndują i Burratinę Crudo</li>
+    <li>Makarony: Carbonara alla Pizzini, Tartufo nero, Nero con gamberi</li>
+    <li>Opcje wegetariańskie w każdej kategorii, lista alergenów do wglądu</li>
+    <li>Lunch w tygodniu - osobne menu lunchowe</li>
+   </ul>
+  </div>
+  <img src="img/wnetrze.jpg" alt="Wnętrze pizzerii Pizzini" loading="lazy">
+ </div>
+</section>
+
+<section class="menu" id="menu">
+ <div class="wrap">
+  <div class="menu-top">
+   <div><h2>Menu</h2><p class="lead" style="margin:0">Nasze bestsellery - i pełna karta poniżej. Ceny aktualne na dzień 21.09.2026 (z obecnej strony).</p></div>
+   <a class="btn btn-d" href="#lista">Pełna karta</a>
+  </div>
+  <div class="karty">
+   <div class="karta"><img src="img/margherita.jpg" alt="Pizza Margherita" loading="lazy"><div class="in"><span class="etyk">Klasyk · vege</span><h3>Margherita <span class="cena">32 zł</span></h3><p>Sos pomidorowy, mozzarella fior di latte, świeża bazylia, oliwa z oliwek</p></div></div>
+   <div class="karta"><img src="img/diavola.jpg" alt="Pizza Diavola" loading="lazy"><div class="in"><span class="etyk ostre">Ostra</span><h3>Diavola <span class="cena">41 zł</span></h3><p>Sos pomidorowy, fior di latte, nduja piccante, jalapeño, karmelizowana cebula, świeży czosnek</p></div></div>
+   <div class="karta"><img src="img/burratina.jpg" alt="Pizza Burratina Crudo" loading="lazy"><div class="in"><span class="etyk">Bestseller</span><h3>Burratina Crudo <span class="cena">54 zł</span></h3><p>Sos pomidorowy, burrata, szynka crudo, pomidorki, rukola, balsamico, świeży pieprz</p></div></div>
+   <div class="karta"><img src="img/tartufo.jpg" alt="Pizza Tartufata" loading="lazy"><div class="in"><span class="etyk">Trufla</span><h3>Tartufata <span class="cena">42 zł</span></h3><p>Crème fraîche, pasta truflowa, salami Napoli, ricotta, biały pieprz</p></div></div>
+   <div class="karta"><img src="img/carbonara.jpg" alt="Carbonara alla Pizzini" loading="lazy"><div class="in"><span class="etyk">Pasta fresca</span><h3>Carbonara <span class="cena">39 zł</span></h3><p>Spaghetti, pancetta, śmietanka, czarny pieprz, grana padano DOP</p></div></div>
+   <div class="karta"><img src="img/funghi.jpg" alt="Pizza Funghi Bianca" loading="lazy"><div class="in"><span class="etyk">Biała</span><h3>Funghi Bianca <span class="cena">40 zł</span></h3><p>Crème fraîche, fior di latte, boczniaki z rozmarynem i oliwą truflową, tymianek, pancetta</p></div></div>
+   <div class="karta"><img src="img/chorizo.jpg" alt="Pizza Chorizo Soave" loading="lazy"><div class="in"><span class="etyk ostre">Pikantna</span><h3>Chorizo Soave <span class="cena">41 zł</span></h3><p>Sos pomidorowy, fior di latte, chorizo, pepperoni, pomidorki, karmelizowana cebula, bazylia</p></div></div>
+   <div class="karta"><img src="img/focaccia.jpg" alt="Focaccia" loading="lazy"><div class="in"><span class="etyk">Na początek</span><h3>Focaccia <span class="cena">9 / 17 zł</span></h3><p>Klasyczna focaccia z oliwą, solą morską i rozmarynem - mała lub duża</p></div></div>
+  </div>
+
+  <div class="lista-menu" id="lista">
+   <div>
+    <h3>Pizza</h3>
+    <div class="poz"><div><b>Marinara</b><small>sos pomidorowy, oliwa, świeża bazylia</small></div><span class="c">29 zł</span></div>
+    <div class="poz"><div><b>Margherita</b><small>sos pomidorowy, fior di latte, bazylia</small></div><span class="c">32 zł</span></div>
+    <div class="poz"><div><b>Cotto</b><small>sos pomidorowy, fior di latte, szynka cotto</small></div><span class="c">36 zł</span></div>
+    <div class="poz"><div><b>Spinaci Vege</b><small>crème fraîche, fior di latte, szpinak, suszone pomidory, czosnek</small></div><span class="c">38 zł</span></div>
+    <div class="poz"><div><b>Napoletana</b><small>anchois, zielone oliwki, pomidorki, czosnek, bazylia</small></div><span class="c">38 zł</span></div>
+    <div class="poz"><div><b>Salame</b><small>sos pomidorowy, fior di latte, salami Napoli</small></div><span class="c">39 zł</span></div>
+    <div class="poz"><div><b>Il Formaggio</b><small>fior di latte, ricotta, gorgonzola, oregano</small></div><span class="c">39 zł</span></div>
+    <div class="poz"><div><b>Tonno</b><small>tuńczyk, czerwona cebula, kapary</small></div><span class="c">40 zł</span></div>
+    <div class="poz"><div><b>Capra rossa</b><small>burak, serek kozi, karmelizowana cebula, rukola, krem balsamiczny</small></div><span class="c">40 zł</span></div>
+    <div class="poz"><div><b>Funghi Bianca</b><small>boczniaki z oliwą truflową, tymianek, pancetta</small></div><span class="c">40 zł</span></div>
+    <div class="poz"><div><b>Spinaci</b><small>crème fraîche, szpinak, pancetta, pomidorki, czosnek</small></div><span class="c">40 zł</span></div>
+    <div class="poz"><div><b>Pera</b><small>gruszka, gorgonzola, orzech włoski</small></div><span class="c">41 zł</span></div>
+    <div class="poz"><div><b>Chorizo Soave</b><small>chorizo, pepperoni, pomidorki, karmelizowana cebula</small></div><span class="c">41 zł</span></div>
+    <div class="poz"><div><b>Diavola</b><small>nduja piccante, jalapeño, karmelizowana cebula, czosnek</small></div><span class="c">41 zł</span></div>
+    <div class="poz"><div><b>Spianata</b><small>spianata piccante, karmelizowana i czerwona cebula, szczypiorek</small></div><span class="c">41 zł</span></div>
+    <div class="poz"><div><b>Cotto e funghi</b><small>szynka cotto, pieczarki</small></div><span class="c">41 zł</span></div>
+    <div class="poz"><div><b>Crudo</b><small>szynka crudo, rukola, pomidorki, grana padano DOP</small></div><span class="c">42 zł</span></div>
+    <div class="poz"><div><b>Tartufata</b><small>pasta truflowa, salami Napoli, ricotta, biały pieprz</small></div><span class="c">42 zł</span></div>
+    <div class="poz"><div><b>Capricciosa</b><small>szynka cotto, pieczarki</small></div><span class="c">43 zł</span></div>
+    <div class="poz"><div><b>Burratina Vege</b><small>burrata, pomidorki, czosnek, rukola, balsamico</small></div><span class="c">47 zł</span></div>
+    <div class="poz"><div><b>Burratina Crudo</b><small>burrata, szynka crudo, pomidorki, rukola, balsamico</small></div><span class="c">54 zł</span></div>
+    <p style="font-size:13px;color:var(--szary);margin:10px 0 0">Dodatki: warzywa 5 zł, wędliny 7 zł, sery 8 zł. Opakowanie na wynos 1-2 zł.</p>
+   </div>
+   <div>
+    <h3>Makarony</h3>
+    <div class="poz"><div><b>Napoli</b><small>spaghetti, sos pomidorowy, bazylia, grana padano</small></div><span class="c">32 zł</span></div>
+    <div class="poz"><div><b>Aglio olio e peperoncino</b><small>czosnek, chilli, natka, grana padano</small></div><span class="c">33 zł</span></div>
+    <div class="poz"><div><b>Carbonara alla Pizzini</b><small>pancetta, śmietanka, czarny pieprz, grana padano</small></div><span class="c">39 zł</span></div>
+    <div class="poz"><div><b>Amatriciana</b><small>tagliatelle, sos pomidorowy, pancetta, czosnek, cebula</small></div><span class="c">42 zł</span></div>
+    <div class="poz"><div><b>Ravioli con spinaci</b><small>ravioli, gorgonzola, śmietanka, grana padano</small></div><span class="c">43 zł</span></div>
+    <div class="poz"><div><b>Spinaci</b><small>tagliatelle, szpinak, śmietanka, suszone pomidory, orzechy włoskie</small></div><span class="c">43 zł</span></div>
+    <div class="poz"><div><b>Bolognese alla Pizzini</b><small>wołowina, polpa pomidorowa, cebula, czosnek</small></div><span class="c">47 zł</span></div>
+    <div class="poz"><div><b>Tartufo nero</b><small>czarne tagliatelle, pasta i oliwa truflowa, boczniaki</small></div><span class="c">49 zł</span></div>
+    <div class="poz"><div><b>Nero con gamberi</b><small>czarne tagliatelle, krewetki, białe wino, masło, cytryna</small></div><span class="c">53 zł</span></div>
+    <h3>Sałatki i przystawki</h3>
+    <div class="poz"><div><b>Insalata Rossa</b><small>rukola, burak, serek kozi, słonecznik, dressing Pizzini</small></div><span class="c">30 zł</span></div>
+    <div class="poz"><div><b>Insalata di rucola con pomodorini</b></div><span class="c">30 zł</span></div>
+    <div class="poz"><div><b>Insalata di burrata</b></div><span class="c">35 zł</span></div>
+    <div class="poz"><div><b>Tapenady + mini focaccia</b><small>truflowa, z oliwek, z suszonych pomidorów, czosnkowa, z pesto</small></div><span class="c">15 zł</span></div>
+    <div class="poz"><div><b>Antipasti di carne</b><small>spianata, crudo, salame Napoli, oliwki, kapary</small></div><span class="c">14 zł</span></div>
+    <h3>Desery</h3>
+    <div class="poz"><div><b>Caffè affogato</b></div><span class="c">12 zł</span></div>
+    <div class="poz"><div><b>Meringa lodowa</b><small>beza lodowa z musem truskawkowym</small></div><span class="c">19 zł</span></div>
+    <div class="poz"><div><b>Limone ripieno</b><small>sorbet cytrynowy podany w cytrynie</small></div><span class="c">24 zł</span></div>
+    <div class="poz"><div><b>Fondant czekoladowy</b><small>na ciepło, z gałką lodów</small></div><span class="c">27 zł</span></div>
+    <p style="font-size:13px;color:var(--szary);margin:14px 0 0">Napoje, kawa, wina, prosecco i strefa 0% - w pełnej karcie w lokalu. <a href="#">Lista alergenów (PDF)</a>.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="lunch" id="lunch">
+ <div class="wrap box">
+  <div>
+   <h2>Menu lunchowe</h2>
+   <p class="lead">W tygodniu, w porze lunchu, oddzielna karta z zestawami dnia. Tu w wersji finalnej wstawimy aktualne menu lunchowe z cenami i godzinami - łatwe do zmiany co tydzień z panelu, bez informatyka.</p>
+   <a class="btn btn-p" href="#kontakt">Zapytaj o lunch dla firmy</a>
+  </div>
+  <div class="kafle">
+   <div class="kafel"><b>Pizza dnia</b><span>mniejsza pizza w cenie lunchowej</span></div>
+   <div class="kafel"><b>Pasta dnia</b><span>świeży makaron z sosem dnia</span></div>
+   <div class="kafel"><b>Sałatka + focaccia</b><span>lekka opcja</span></div>
+   <div class="kafel"><b>Kawa / lemoniada</b><span>w zestawie</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="galeria" id="galeria">
+ <div class="wrap">
+  <h2>Galeria</h2>
+  <p class="lead">Zdjęcia z obecnej strony - w wersji finalnej w pełnej jakości, z lekkim formatem WebP (szybko ładują się na telefonie).</p>
+  <div class="siatka">
+   <img src="img/wnetrze.jpg" alt="Wnętrze Pizzini" loading="lazy">
+   <img src="img/margherita.jpg" alt="Margherita" loading="lazy">
+   <img src="img/burratina.jpg" alt="Burratina" loading="lazy">
+   <img src="img/carbonara.jpg" alt="Carbonara" loading="lazy">
+   <img src="img/focaccia.jpg" alt="Focaccia" loading="lazy">
+   <img src="img/chorizo.jpg" alt="Chorizo Soave" loading="lazy">
+   <img src="img/funghi.jpg" alt="Funghi Bianca" loading="lazy">
+   <img src="img/tartufo.jpg" alt="Tartufata" loading="lazy">
+  </div>
+ </div>
+</section>
+
+<section class="opinie">
+ <div class="wrap">
+  <h2>Opinie gości</h2>
+  <p class="lead">W wersji finalnej: prawdziwe opinie z Państwa wizytówek Google (Ursus i Wola) pobierane automatycznie. Poniżej przykładowy układ.</p>
+  <div class="op">
+   <div class="opinia"><div class="gw">★★★★★</div><p>Przykładowa opinia - miejsce na treść z Google.</p><small>Gość, Google - Ursus</small></div>
+   <div class="opinia"><div class="gw">★★★★★</div><p>Przykładowa opinia - miejsce na treść z Google.</p><small>Gość, Google - Wola</small></div>
+   <div class="opinia"><div class="gw">★★★★★</div><p>Przykładowa opinia - miejsce na treść z Google.</p><small>Gość, Google - Ursus</small></div>
+  </div>
+ </div>
+</section>
+
+<section id="lokale">
+ <div class="wrap">
+  <h2>Nasze lokale</h2>
+  <p class="lead">Dwa adresy w Warszawie. Kliknij numer, żeby zadzwonić, albo otwórz nawigację.</p>
+  <div class="lokale">
+   <div class="lokal">
+    <div class="mapa"><iframe loading="lazy" title="Mapa - Pizzini Ursus" src="https://www.google.com/maps?q=Posag+7+Panien+14,+02-495+Warszawa&output=embed"></iframe></div>
+    <div class="in">
+     <h3>Pizzini <span>Ursus</span></h3>
+     <p>ul. Posag 7 Panien 14 U2, 02-495 Warszawa</p>
+     <div class="dane">
+      <div>Rezerwacje i zamówienia: <a href="tel:+48510189509">+48 510 189 509</a></div>
+      <div>E-mail: <a href="mailto:pizziniursus@pizzini.pl">pizziniursus@pizzini.pl</a></div>
+     </div>
+     <div class="przyciski">
+      <a class="btn btn-p" href="tel:+48510189509">Zadzwoń</a>
+      <a class="btn btn-o" href="https://www.google.com/maps/dir/?api=1&destination=Posag+7+Panien+14,+02-495+Warszawa" target="_blank" rel="noopener">Nawiguj</a>
+     </div>
+     <div class="godz">Godziny otwarcia: do uzupełnienia w wersji finalnej (osobno dla każdego lokalu, z informacją "otwarte teraz").</div>
+    </div>
+   </div>
+   <div class="lokal">
+    <div class="mapa"><iframe loading="lazy" title="Mapa - Pizzini Wola" src="https://www.google.com/maps?q=Jana+Kazimierza+35,+01-248+Warszawa&output=embed"></iframe></div>
+    <div class="in">
+     <h3>Pizzini <span>Wola</span></h3>
+     <p>ul. Jana Kazimierza 35 UH09, wejście od ul. Stanisława Worcella 4, 01-248 Warszawa</p>
+     <div class="dane">
+      <div>Rezerwacje i zamówienia: <a href="tel:+48452574557">+48 452 574 557</a></div>
+      <div>E-mail: <a href="mailto:kontakt@pizzini.pl">kontakt@pizzini.pl</a></div>
+     </div>
+     <div class="przyciski">
+      <a class="btn btn-p" href="tel:+48452574557">Zadzwoń</a>
+      <a class="btn btn-o" href="https://www.google.com/maps/dir/?api=1&destination=Stanis%C5%82awa+Worcella+4,+01-248+Warszawa" target="_blank" rel="noopener">Nawiguj</a>
+     </div>
+     <div class="godz">Godziny otwarcia: do uzupełnienia w wersji finalnej (osobno dla każdego lokalu, z informacją "otwarte teraz").</div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="zamow" id="zamow">
+ <div class="wrap">
+  <h2>Głodni? Zamów z dostawą</h2>
+  <p>Zamówienia z dostawą i na wynos przyjmujemy przez Wolt i Pyszne.pl - wybierz lokal bliżej siebie. Stolik zarezerwujesz telefonicznie.</p>
+  <div class="cta" style="justify-content:center">
+   <a class="btn btn-o" href="https://wolt.com/pl/pol/warsaw/restaurant/pizzini-pizza-neapolitaska-i-pasta-fresca" target="_blank" rel="noopener">Zamów przez Wolt</a>
+   <a class="btn btn-o" href="https://www.pyszne.pl/menu/pizzini-pizza-neapolitanska-i-pasta-fresca" target="_blank" rel="noopener">Zamów przez Pyszne.pl</a>
+   <a class="btn btn-s" href="#lokale">Zarezerwuj stolik</a>
+  </div>
+ </div>
+</section>
+
+<footer id="kontakt">
+ <div class="wrap">
+  <div class="stopka">
+   <div>
+    <img src="img/logo.png" alt="Pizzini" style="height:60px;width:auto;margin-bottom:12px;background:#fff;padding:6px 10px;border-radius:8px">
+    <p style="margin:0">Pizza neapolitańska i pasta fresca. Ursus i Wola, Warszawa.</p>
+    <p class="sm" style="margin:12px 0 0"><a href="https://www.facebook.com/profile.php?id=100090373890913" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/pizzini_pl/" target="_blank" rel="noopener">Instagram</a></p>
+   </div>
+   <div><h4>Ursus</h4><ul><li>Posag 7 Panien 14 U2</li><li>02-495 Warszawa</li><li><a href="tel:+48510189509">+48 510 189 509</a></li><li><a href="mailto:pizziniursus@pizzini.pl">pizziniursus@pizzini.pl</a></li></ul></div>
+   <div><h4>Wola</h4><ul><li>Jana Kazimierza 35 UH09</li><li>wejście od S. Worcella 4</li><li>01-248 Warszawa</li><li><a href="tel:+48452574557">+48 452 574 557</a></li><li><a href="mailto:kontakt@pizzini.pl">kontakt@pizzini.pl</a></li></ul></div>
+   <div><h4>Na skróty</h4><ul><li><a href="#menu">Menu</a></li><li><a href="#lunch">Menu lunchowe</a></li><li><a href="#">Lista alergenów</a></li><li><a href="#galeria">Galeria</a></li><li><a href="#">Polityka prywatności</a></li></ul></div>
+  </div>
+  <div class="copy"><span>© 2026 Pizzini. Wszystkie prawa zastrzeżone.</span><span>Szkic odświeżonej strony - wersja robocza do akceptacji</span></div>
+ </div>
+</footer>
+
+<div class="mobile-bar">
+ <a class="btn btn-p" href="#zamow">Zamów online</a>
+ <a class="btn btn-o" href="tel:+48510189509">Zadzwoń</a>
+</div>
+</body>
+</html>
